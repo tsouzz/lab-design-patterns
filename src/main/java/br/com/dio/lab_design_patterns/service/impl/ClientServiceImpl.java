@@ -1,9 +1,9 @@
 package br.com.dio.lab_design_patterns.service.impl;
 
 import br.com.dio.lab_design_patterns.model.Address;
-import br.com.dio.lab_design_patterns.model.AddressRepository;
+import br.com.dio.lab_design_patterns.repository.AddressRepository;
 import br.com.dio.lab_design_patterns.model.Client;
-import br.com.dio.lab_design_patterns.model.ClientRepository;
+import br.com.dio.lab_design_patterns.repository.ClientRepository;
 import br.com.dio.lab_design_patterns.service.ClientService;
 import br.com.dio.lab_design_patterns.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
